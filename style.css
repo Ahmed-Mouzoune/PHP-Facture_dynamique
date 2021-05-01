@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+}
+/*                              
+
+        HEADER
+
+*/
+#logo {
+    width: 100px;
+    height: 100px;
+}
+#sous_titre_facture {
+    color: #d2dae2;
+}
+.conteneur_header_facture_client {
+    display: flex;
+    justify-content: space-between;
+}
+.conteneur_header_logo_nomentreprise {
+    display: flex;
+    justify-content: space-between;
+}
+/*                              
+
+        Main
+
+*/
+#main {
+    background-color: white;
+    padding: 13px;
+    width: 650px;
+    margin: auto;
+}
+/*                              
+
+        TABLEAU
+
+*/
+.h3facture {
+    margin-bottom: 10px;
+}
+table {
+    width: 100%;
+}
+#tableau{
+    border-collapse:collapse;
+}
+#titre_tableau {
+    border: 2px solid black;
+    margin-bottom: 8px;
+}
+.color_celluleth_tableau {
+    background-color: #d2dae2;
+}
+.border_cellule_tableau {
+    border:1px solid black;
+}
+.padding_coldesignation {
+    padding-left: 5px;
+}
+.largeurcolref{
+    width: 20%;
+}
+.largeurcoldesignation{
+    width: 30%;
+}
+.largeurcolpht{
+    width: 20%;
+}
+.largeurcolqte{
+    width: 10%;
+}
+/*                              
+
+        COMMENTAIRE
+
+*/
+#div_commentaire{
+    height: 150px;
+    border-collapse:collapse;
+}
+#titre_commentaire{
+    height: 20%;
+    margin: 0;
+    padding: 5px;
+}
+#commentaire{
+    height: 70%;
+    margin: 0;
+    padding: 5px;
+}
+
+.divTotal {
+    width: 150px;
+    margin-left: auto;
+}
+/*                              
+
+        FOOTER
+
+*/
+.conteneur_footer_infoentreprise {
+    display: flex;
+    justify-content: space-between;
+}
+/*                              
+
+        Classe balises/textes
+
+*/
+.conteneur_margin_top {
+    margin-top: 10px;
+}
+.conteneur_largeur_page {
+    width: 650px;
+}
+.conteneur_marginleft_auto {
+    margin-left: auto;
+}
+.conteneur_margin_auto {
+    margin: auto;
+}
+.text-center {
+    text-align: center;
+}
